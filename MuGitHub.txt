@@ -1,0 +1,48 @@
+Git & Github
+
+Dados do desenvolver
+1. Configurando a pessoa, desenvolvedor que irá registrar os commits
+git config --global user.name ""
+retorna o nome do usuário
+
+2. Verificar o email do usuário cadastrado no Github
+git config --global user.email ""
+retorna email cadastrado para os commits
+
+Diferença em Global, Local, System - serve somente para o repositório local
+
+Configuração Padrão Branch inicial MAIN
+3 . git config --global init.defaultbranch main
+
+* Movendo Branch de Master para Main
+git branch --move main
+got 
+Verificar Status do projeto git 
+git status
+
+Se houver algum documento não adicionado usar comando
+git add (escrever o nome do arquivo)
+
+git log serve para verificar situação do que foi commit
+
+o git não reconhece pasta vazia
+
+git add . (adiciona todos os arquivos e modificações ao repositório)
+
+git commit -m (inserir mensagem dentro do commit utilizar aspas, detalhando o que foi realizado)
+
+CTRL+L  limpa a tela
+
+git remote add origin (escrever endereço do repositório no Github)
+Verificar com o git remote - v (mostra o endereço do repositório remoto)
+(fetch) puxar o arquivo (push) enviar o conteúdo 
+
+
+git remote rm (deleta uma informação do repositório remoto)
+
+git push origin main(enviar o arquivo para o repositório remoto)
+
+
+
+
+
